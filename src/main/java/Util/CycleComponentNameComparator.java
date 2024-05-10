@@ -4,7 +4,9 @@ package Util;
 import java.util.Comparator;
 
 /**
- *
+ * Compares two strings based on whether they contain "CPU". Strings containing "CPU" are considered smaller.
+ * If both strings contain "CPU", they are compared lexicographically.
+ * If neither contains "CPU", they are compared based on the numeric value following the first character.
  * @version 1.0
  */
 public class CycleComponentNameComparator implements Comparator<String> {

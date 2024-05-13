@@ -62,7 +62,6 @@
             <version>3.17.1</version>
         </dependency>
 
-
         <!-- AssertJ Core for fluent assertions in tests -->
         <dependency>
             <groupId>org.assertj</groupId>

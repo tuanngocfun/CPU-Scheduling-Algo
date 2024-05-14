@@ -35,8 +35,9 @@ public class BlockingSortedQueue extends SortedQueue {
     
     @Override
     public QueueElement nextElement() {
-        return (mBlockedElement != null) ? mBlockedElement : super.nextElement();
+        return (mBlockedElement != null) ? mBlockedElement : (QueueElement)super.nextElement();
     }
+
     
     protected QueueElement replaceBlockedElementTime(int time) throws IllegalArgumentException {
         if(time < 0)

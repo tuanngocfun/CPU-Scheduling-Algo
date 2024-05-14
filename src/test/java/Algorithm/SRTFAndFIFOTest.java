@@ -86,7 +86,7 @@ public class SRTFAndFIFOTest {
         System.out.println("Gantt Chart for R2:");
         r2.getGanttChart().draw();
 
-        System.out.println("Average Waiting Time: " + result.getWaitingTime());
+        System.out.println("Average Waiting Time: " + result.getWaitingTime());// debug console output
         System.out.println("Average Turnaround Time: " + result.getTurnaroundTime());
 
         // Example Assertions

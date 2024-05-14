@@ -83,7 +83,7 @@ public class RRTest {
 
         for (int i = 0; i < intervals.length; i++) {
           Process process = ganttChart.getProcess(intervals[i]);
-          System.out.println("Current Interval: " + intervals[i]);
+          System.out.println("Current Interval: " + intervals[i]);// debug console output
           System.out.println("Process ID: " + ((MockProcess) process).getID());
           System.out.println("Expected Process ID: " + expectedProcessIDs[i]);
           System.out.println("Start Time: " + intervals[i].getStart());

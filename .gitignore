@@ -1,0 +1,30 @@
+# Compiled Java classes
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven build folder
+target/
+
+# Dependency directories
+jfreechart-1.5.3.jar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# NetBeans specific #
+nbactions.xml
+nb-configuration.xml
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Ignore all log files and temp files #
+*.log
+*.tmp
+*.temp
